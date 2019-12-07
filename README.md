@@ -17,8 +17,10 @@ The link is https://github.com/lqk67506/CS599_ML_Project2/blob/master/CS599%20ML
 
 # How to reproduce:
 Opinion 1:
-Download project2 fold, reun Project_Interval_regression_parameters.R at first. Then, run Project2.py
+Download project2 fold, run Project_Interval_regression_parameters.R at first. Then, run Project2.py
+
 Opinion 2:
 Run Makefile
+
 Software need:
 Python, R
