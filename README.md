@@ -16,5 +16,9 @@ The PDF has been uploaded in the repository.
 The link is https://github.com/lqk67506/Project2/blob/master/CS599%20ML%20Project2%20Week%203.pdf
 
 # How to reproduce:
-Download the fold which include the code and run Makefile
-Software needed: Python
+Opinion 1:
+Download project2 fold, reun Project_Interval_regression_parameters.R at first. Then, run Project2.py
+Opinion 2:
+Run Makefile
+Software need:
+Python, R
