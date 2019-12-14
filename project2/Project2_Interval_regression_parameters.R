@@ -20,6 +20,8 @@ sin_predictor <- penaltyLearning::IntervalRegressionCV(sin_features_mat, sin_tar
 # Read in targe and feature of linear
 linear_features <- read.csv("linear_features.csv")
 linear_target <- read.csv("linear_targets.csv")
+linear_features_mat = data.matrix(linear_features)
+linear_targets_mat = data.matrix(linear_target)
 # Generate sin  with IntervalRegressionCV function in penaltyLearining package
 linear_predictor <- penaltyLearning::IntervalRegressionCV(linear_features_mat, linear_targets_mat)
 
